@@ -62,7 +62,7 @@ pn=input("What is your favourit name in your name ' PET NAME ' : ")
 sys("clear")
 
 #output
-print("YOUR ESSAY IS WE WRITE NOW ... Please wait few sec.........".center(50))
+print("YOUR ESSAY IS ON PROGRESS ... Please wait few sec.........".center(50))
 time.sleep(4)
 print(' \033[92m' "MY SELF".center(50))
 print("")
