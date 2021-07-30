@@ -33,16 +33,16 @@ lname = input( '\033[93m'"What is Your LAST NAME  : " )
 agey = int( input( '\033[93m'"What is Your Birth Year  : " ) )
 age = 2021 - (agey)
 if age < 100 :
-    print( '\033[091m', fname,"Your Age is : ",age )
+    print( '\033[92m', fname,"Your Age is : ",age )
 else:
     print('\033[091m',fname,"YOU ENTERD WRONG ANSWER !!!!!" )
     agey = int( input( '\033[93m'"What is Your Birth Year  : " ) )
     if age < 100 :
-        print( '\033[091m',fname,"Your Age is : ",age )
+        print( '\033[092m',fname,"Your Age is : ",age )
     else :
         print("YOU ENTERD WRONG ANSWER !!!!!  PROGRAM HAS STOPED")
         time.sleep(2)
-        sys("exit")
+        exit()
 
 ad = input( '\033[93m' "What is your Addres : " )
 ju = input( '\033[93m'"You junior or senior student in your School : " )
